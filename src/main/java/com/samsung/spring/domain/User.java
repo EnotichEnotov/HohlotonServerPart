@@ -23,11 +23,12 @@ public class User {
     private String name;
 
     @Column(name = "rating")
-    private long Rating;
+    private long rating;
+    @Column(name = "phone")
+    private long phone;
 
-    @Column(name = "photoUrl")
-    private String photoUrl;
-
+    @Column(name = "hashPassword")
+    private long hashPassword;
     @Column(name = "avaUrl")
     private String avaUrl;
 }
